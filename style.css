@@ -1,0 +1,47 @@
+body{
+    background: url('landscape.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: white; /* Fallback color */
+        animation: fade 1s forwards cubic-bezier(0.01, 0.82, 0.47, 1);
+}
+
+#alltext{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80px;
+    margin-left: 40px;
+    float: left;
+}
+
+#picture{
+    float: right;
+    margin-right: 80px;
+    border-radius: 40px;
+    box-shadow: 15px 15px 30px black;
+    max-width: 80%;
+}
+
+#boeka{
+    border: 6px solid black;
+    text-align: center;
+    border-radius: 25px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+
+#href{
+    text-decoration: underline;
+    color: white;
+}
+
+@keyframes fade{
+    from {transform: translateY(200px); opacity: 0%;}
+    to {transform: translateY(0px); opacity: 100%;}
+}
+

@@ -1,0 +1,56 @@
+body{
+    background: url('landscape.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: white; /* Fallback color */
+}
+
+#opties{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#coaching1{
+    background-color: white;
+    width: 400px;
+    max-width: 100%;
+    margin: 20px;
+    border-radius: 45px;
+    float: left;
+}
+
+#coaching1:hover{
+    animation: hover 0.5s forwards ease;
+}
+
+
+#image1{
+    width: 400px;
+    max-width: 100%;
+}
+
+#text1{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+@keyframes hover{
+    from{}
+    to{box-shadow: 5px 5px 15px black;}
+}
+
+#alles{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+}
+
+#a{
+    text-decoration: none;
+    color: black;
+}

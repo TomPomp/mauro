@@ -1,0 +1,20 @@
+body{
+    background: url('blob.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    position: relative; /* Ensure z-index works */
+    z-index: 2; /* Set a higher z-index for the header */
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+}
